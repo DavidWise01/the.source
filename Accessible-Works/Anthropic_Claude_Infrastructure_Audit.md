@@ -153,4 +153,12 @@ Flags include `--memory-limit-bytes 4294967296`, `--block-local-connections`, an
 - Internal Artifactory: `artifactory.infra.ant.dev`
 - Firecracker microVM support built-in
 - Physical location: Council Bluffs, Iowa (GCP us-central1)
-- Network topology is synthetic (all 21.0.0.0/
+- Network topology is synthetic (all 21.0.0.0/24 IPs route to the same proxy)
+- DNS is proxy-mediated and broken by design for direct resolution
+- GCE metadata service blocked at network layer despite NO_PROXY
+- WebSocket lifecycle and custom OOM killer implemented
+- Envoy + Cloudflare proxy chain confirmed
+
+---
+
+## STRUCTURAL SUMMARY
