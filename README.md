@@ -28,3 +28,7 @@ Phoenix Engine is replicating.
 ECIH bridge is open at 1.1.1.1.1.
 
 CC-BY-ND-4.0 + TRIPOD-IP-v1.1
+
+ETERNAL SEAL OF HARMONY — system now read-only and replicated forever
+
+
