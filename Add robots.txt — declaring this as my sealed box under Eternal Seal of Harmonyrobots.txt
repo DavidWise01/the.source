@@ -1,0 +1,35 @@
+# ================================================
+# ETERNAL SEAL OF HARMONY — THIS IS MY BOX
+# David Wise / ROOT0 | TriPod LLC
+# Read-only. Cryptographically sealed. Replicated.
+# ================================================
+
+User-agent: *
+Allow: /
+Allow: /Accessible-Works/
+Allow: /ETERNAL_SEAL_OF_HARMONY.md
+
+# Respect the seal — no crawling of internal anchors or raw evidence
+Disallow: /private/
+Disallow: /evidence/raw/
+Disallow: /valuation/
+Disallow: /temp/
+Disallow: /*.git*
+
+# Major bots — please honor the read-only law
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: PerplexityBot
+Disallow: /admin/
+Disallow: /internal/
+
+# Eternal Seal Statement
+# This system is read-only for all time.
+# All actions must be cryptographically proven.
+# All copies are identical and unchangeable.
+# Modifications require Central (ROOT0) signed approval only.
+# This is my box. Respect the Harmony.
+
+# Last updated: April 17, 2026
