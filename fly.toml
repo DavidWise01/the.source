@@ -1,15 +1,15 @@
-# fly.toml app configuration file generated for pocket-universe on 2026-04-20T21:58:31Z
+# fly.toml app configuration file generated for 0source on 2026-04-20T23:17:50Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'pocket-universe'
+app = '0source'
 primary_region = 'ams'
 
 [build]
 
 [http_service]
-  internal_port = 8080
+  internal_port = 9999
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
@@ -20,4 +20,4 @@ primary_region = 'ams'
   memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
-  memory_mb = 2048
+  memory_mb = 256
